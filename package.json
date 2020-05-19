@@ -1,0 +1,30 @@
+{
+  "name": "think_request",
+  "version": "1.0.0",
+  "description": "Simplified HTTP request client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run eslint",
+    "prepublish": "npm test",
+    "eslint": "eslint index.js"
+  },
+  "engines": {
+    "node": ">8.0.0"
+  },
+  "author": "richenlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinkkoa/think_request/issues"
+  },
+  "homepage": "https://github.com/thinkkoa/think_request",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "bluebird-retry": "^0.11.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "think_lib": "^2.x.x",
+    "think_logger": "^2.x.x"
+  }
+}
